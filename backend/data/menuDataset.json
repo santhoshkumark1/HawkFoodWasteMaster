@@ -1,0 +1,351 @@
+{
+  "ai_recommendation_context": {
+    "population_profile": {
+      "age_range": "18-35",
+      "international_students_pct": 60,
+      "dietary_restrictions": ["halal", "vegetarian", "vegan", "gluten-free"],
+      "notes": "Heavy South Asian and East Asian representation. Students prefer protein-forward meals. Unfamiliar preparations consistently waste >40%."
+    },
+    "key_insights": [
+      "Cauliflower in any preparation wastes 44-70% consistently — students avoid it regardless of seasoning",
+      "Brown Rice is overproduced every dinner shift — 34-38% waste, reduce batch by 25%",
+      "Meatless/vegetarian proteins (veggie burger, meatless sausage) waste 40-48% when meat alternatives are available",
+      "Butter Chicken and Teriyaki Chicken are the top performers — international students strongly prefer familiar protein-forward Asian dishes",
+      "Bakery items (muffins, pound cake, gooey bars) consistently waste 30-50% — reduce to half batch after 9AM",
+      "Barley Mushroom Pilaf and Lentil Soup are unfamiliar to most students — high waste every time served",
+      "Pizza and Shoestring Fries are near-zero waste every shift — always keep stocked"
+    ]
+  },
+  "menu": {
+    "breakfast": {
+      "station": "Breakfast Entree Line",
+      "items": [
+        {
+          "name": "Scrambled Eggs",
+          "station": "Breakfast Entree Line",
+          "historical_waste_pct": 13,
+          "waste_tier": "low",
+          "familiarity": 5, "cultural_fit": 4, "visual_appeal": 4, "comfort_level": 4,
+          "protein_present": true,
+          "notes": "Universal staple, consistent low waste"
+        },
+        {
+          "name": "Chilaquiles Rojos",
+          "station": "Breakfast Entree Line",
+          "historical_waste_pct": 51,
+          "waste_tier": "high",
+          "familiarity": 1, "cultural_fit": 2, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Unfamiliar to most international students; 50%+ waste both times served"
+        },
+        {
+          "name": "Churro Pancakes",
+          "station": "Breakfast Entree Line",
+          "historical_waste_pct": 25,
+          "waste_tier": "medium",
+          "familiarity": 3, "cultural_fit": 3, "visual_appeal": 4, "comfort_level": 3,
+          "protein_present": false,
+          "notes": "Performs better than plain pancakes; dessert-style appeal helps"
+        },
+        {
+          "name": "Maple Smoked Beef and Pork Sausage",
+          "station": "Breakfast Entree Line",
+          "historical_waste_pct": 9,
+          "waste_tier": "low",
+          "familiarity": 4, "cultural_fit": 3, "visual_appeal": 4, "comfort_level": 4,
+          "protein_present": true,
+          "notes": "Top breakfast protein; students choose this over meatless options"
+        },
+        {
+          "name": "Ranch Breakfast Potatoes",
+          "station": "Breakfast Entree Line",
+          "historical_waste_pct": 37,
+          "waste_tier": "medium",
+          "familiarity": 3, "cultural_fit": 3, "visual_appeal": 3, "comfort_level": 3,
+          "protein_present": false,
+          "notes": "Consistent mid-range waste; overproduced on heavy traffic days"
+        },
+        {
+          "name": "Salsa Roja Cauliflower",
+          "station": "Breakfast Entree Line",
+          "historical_waste_pct": 70,
+          "waste_tier": "critical",
+          "familiarity": 1, "cultural_fit": 1, "visual_appeal": 2, "comfort_level": 1,
+          "protein_present": false,
+          "notes": "Worst performer this week — unfamiliar dish at breakfast, no protein, 70% waste"
+        },
+        {
+          "name": "Meatless Vegetarian Sausage Patty",
+          "station": "Breakfast Entree Line",
+          "historical_waste_pct": 46,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 2, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": true,
+          "notes": "Students avoid when meat sausage is present on the same line"
+        },
+        {
+          "name": "Blueberry Muffin",
+          "station": "Bakery",
+          "historical_waste_pct": 48,
+          "waste_tier": "high",
+          "familiarity": 3, "cultural_fit": 2, "visual_appeal": 3, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Goes stale by 9AM; reduce to half batch after first hour"
+        },
+        {
+          "name": "Cinnamon Roll",
+          "station": "Bakery",
+          "historical_waste_pct": 23,
+          "waste_tier": "medium",
+          "familiarity": 4, "cultural_fit": 3, "visual_appeal": 4, "comfort_level": 3,
+          "protein_present": false,
+          "notes": "Better than other bakery items; universally familiar"
+        }
+      ]
+    },
+    "lunch": {
+      "station": "Global Kitchen",
+      "items": [
+        {
+          "name": "Butter Chicken",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 4,
+          "waste_tier": "low",
+          "familiarity": 5, "cultural_fit": 5, "visual_appeal": 4, "comfort_level": 5,
+          "protein_present": true,
+          "notes": "Most popular Global Kitchen item; nearly sold out every time"
+        },
+        {
+          "name": "Teriyaki Chicken",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 8,
+          "waste_tier": "low",
+          "familiarity": 5, "cultural_fit": 5, "visual_appeal": 4, "comfort_level": 4,
+          "protein_present": true,
+          "notes": "Strong performer; familiar to East Asian students"
+        },
+        {
+          "name": "Pesto Chicken",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 7,
+          "waste_tier": "low",
+          "familiarity": 4, "cultural_fit": 4, "visual_appeal": 4, "comfort_level": 4,
+          "protein_present": true,
+          "notes": "Low waste; protein drives consumption"
+        },
+        {
+          "name": "Garlic Roasted Cauliflower",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 49,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 2, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Cauliflower in any form is consistently rejected; appears 3x this week all with >44% waste"
+        },
+        {
+          "name": "Chickpeas and Spinach",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 47,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 3, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Students don't identify chickpeas as a protein substitute here"
+        },
+        {
+          "name": "Barley Mushroom Pilaf",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 50,
+          "waste_tier": "high",
+          "familiarity": 1, "cultural_fit": 1, "visual_appeal": 2, "comfort_level": 1,
+          "protein_present": false,
+          "notes": "Students unfamiliar with barley; 50%+ waste both times served — consider removing"
+        },
+        {
+          "name": "Brown Rice",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 34,
+          "waste_tier": "medium",
+          "familiarity": 4, "cultural_fit": 4, "visual_appeal": 3, "comfort_level": 3,
+          "protein_present": false,
+          "notes": "Overproduced every shift; reduce Monday batch by 25%"
+        },
+        {
+          "name": "Cheese Pizza",
+          "station": "Pizza",
+          "historical_waste_pct": 5,
+          "waste_tier": "low",
+          "familiarity": 5, "cultural_fit": 5, "visual_appeal": 5, "comfort_level": 5,
+          "protein_present": true,
+          "notes": "Always near zero waste — universal appeal"
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "station": "Pizza",
+          "historical_waste_pct": 5,
+          "waste_tier": "low",
+          "familiarity": 5, "cultural_fit": 4, "visual_appeal": 5, "comfort_level": 5,
+          "protein_present": true,
+          "notes": "Not halal but very popular; consistent low waste"
+        },
+        {
+          "name": "Shoestring French Fries",
+          "station": "Daily Grill",
+          "historical_waste_pct": 3,
+          "waste_tier": "low",
+          "familiarity": 5, "cultural_fit": 5, "visual_appeal": 4, "comfort_level": 5,
+          "protein_present": false,
+          "notes": "Lowest waste item in the dining hall"
+        },
+        {
+          "name": "Vegetable Quesadilla",
+          "station": "Daily Grill",
+          "historical_waste_pct": 38,
+          "waste_tier": "high",
+          "familiarity": 3, "cultural_fit": 2, "visual_appeal": 3, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Students prefer meat version; vegetable-only underperforms"
+        },
+        {
+          "name": "Tomato Bisque",
+          "station": "Chef Made Soups",
+          "historical_waste_pct": 42,
+          "waste_tier": "high",
+          "familiarity": 3, "cultural_fit": 2, "visual_appeal": 3, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Soup in general underperforms at lunch; reduce batch 30%"
+        },
+        {
+          "name": "Lentil Soup",
+          "station": "Chef Made Soups",
+          "historical_waste_pct": 46,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 2, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Despite lentils being culturally familiar, preparation style doesn't resonate"
+        },
+        {
+          "name": "Cauliflower Cheddar Soup",
+          "station": "Chef Made Soups",
+          "historical_waste_pct": 41,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 1, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Cauliflower again; combine with soup underperformance for double waste risk"
+        },
+        {
+          "name": "Naan Bread",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 13,
+          "waste_tier": "low",
+          "familiarity": 4, "cultural_fit": 5, "visual_appeal": 4, "comfort_level": 4,
+          "protein_present": false,
+          "notes": "High cultural familiarity for South Asian students"
+        },
+        {
+          "name": "Chocolate Chip Cookies",
+          "station": "Bakery",
+          "historical_waste_pct": 10,
+          "waste_tier": "low",
+          "familiarity": 5, "cultural_fit": 4, "visual_appeal": 5, "comfort_level": 4,
+          "protein_present": false,
+          "notes": "Best bakery item; universal appeal"
+        }
+      ]
+    },
+    "dinner": {
+      "station": "Global Kitchen",
+      "items": [
+        {
+          "name": "Honey Harissa Roasted Chicken",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 7,
+          "waste_tier": "low",
+          "familiarity": 4, "cultural_fit": 4, "visual_appeal": 4, "comfort_level": 4,
+          "protein_present": true,
+          "notes": "Strong dinner protein; students eat this first"
+        },
+        {
+          "name": "Jerk Chicken",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 10,
+          "waste_tier": "low",
+          "familiarity": 3, "cultural_fit": 4, "visual_appeal": 4, "comfort_level": 4,
+          "protein_present": true,
+          "notes": "Flavorful protein; consistent low waste at dinner"
+        },
+        {
+          "name": "Grilled Salmon",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 13,
+          "waste_tier": "low",
+          "familiarity": 4, "cultural_fit": 4, "visual_appeal": 4, "comfort_level": 4,
+          "protein_present": true,
+          "notes": "Good performer; seafood accepted well at dinner"
+        },
+        {
+          "name": "Roasted Zucchini",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 51,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 2, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Worsening trend — 48% to 54% across the week; consistently rejected at dinner"
+        },
+        {
+          "name": "Lentils and Spinach",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 49,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 3, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Students don't treat lentils as a dinner protein equivalent"
+        },
+        {
+          "name": "Sweet Potato and Feta",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 45,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 2, "visual_appeal": 3, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Combination unfamiliar; low cultural fit for dominant student demographics"
+        },
+        {
+          "name": "Brown Rice",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 36,
+          "waste_tier": "medium",
+          "familiarity": 4, "cultural_fit": 4, "visual_appeal": 3, "comfort_level": 3,
+          "protein_present": false,
+          "notes": "Chronically overproduced at dinner — reduce batch by 25% every shift"
+        },
+        {
+          "name": "Veggie Burger",
+          "station": "Daily Grill",
+          "historical_waste_pct": 44,
+          "waste_tier": "high",
+          "familiarity": 3, "cultural_fit": 2, "visual_appeal": 3, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Students pick beef burger when available; veggie waste worsening 40→48%"
+        },
+        {
+          "name": "Black Beans and Rice",
+          "station": "Global Kitchen",
+          "historical_waste_pct": 31,
+          "waste_tier": "medium",
+          "familiarity": 3, "cultural_fit": 3, "visual_appeal": 3, "comfort_level": 3,
+          "protein_present": false,
+          "notes": "Mid-range waste; acceptable as side dish"
+        },
+        {
+          "name": "Gooey Bar",
+          "station": "Bakery",
+          "historical_waste_pct": 44,
+          "waste_tier": "high",
+          "familiarity": 2, "cultural_fit": 2, "visual_appeal": 2, "comfort_level": 2,
+          "protein_present": false,
+          "notes": "Students prefer cookies over this — consider replacing with Chocolate Chip Cookies at dinner"
+        }
+      ]
+    }
+  }
+}

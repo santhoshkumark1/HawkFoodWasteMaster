@@ -1,0 +1,270 @@
+{
+  "location": "The Commons — Illinois Institute of Technology",
+  "stations": [
+    "Breakfast Entree Line",
+    "Create (Omelet Bar)",
+    "Fruit and Yogurt Bar",
+    "Bakery",
+    "Global Kitchen",
+    "Pizza",
+    "Daily Grill",
+    "Chef Made Soups"
+  ],
+  "week": "2026-03-28 to 2026-04-04",
+  "logs": [
+    {
+      "date": "2026-03-28",
+      "shift": "breakfast",
+      "entries": [
+        { "station": "Breakfast Entree Line", "item": "Scrambled Eggs", "portionsMade": 80, "portionsLeft": 12, "wastePercent": 15 },
+        { "station": "Breakfast Entree Line", "item": "Buttermilk Pancakes", "portionsMade": 60, "portionsLeft": 22, "wastePercent": 37 },
+        { "station": "Breakfast Entree Line", "item": "Beef and Pork Sausage", "portionsMade": 55, "portionsLeft": 6, "wastePercent": 11 },
+        { "station": "Breakfast Entree Line", "item": "Breakfast Potatoes", "portionsMade": 50, "portionsLeft": 18, "wastePercent": 36 },
+        { "station": "Bakery", "item": "Blueberry Muffin", "portionsMade": 40, "portionsLeft": 19, "wastePercent": 48 },
+        { "station": "Fruit and Yogurt Bar", "item": "Cubed Cantaloupe", "portionsMade": 30, "portionsLeft": 4, "wastePercent": 13 }
+      ],
+      "totalWasteLbs": 14.2,
+      "notes": "Pancakes and potatoes consistently returned. Muffins went stale by 9AM."
+    },
+    {
+      "date": "2026-03-28",
+      "shift": "lunch",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Teriyaki Chicken", "portionsMade": 100, "portionsLeft": 8, "wastePercent": 8 },
+        { "station": "Global Kitchen", "item": "Roasted Cauliflower", "portionsMade": 60, "portionsLeft": 28, "wastePercent": 47 },
+        { "station": "Global Kitchen", "item": "Brown Rice", "portionsMade": 90, "portionsLeft": 31, "wastePercent": 34 },
+        { "station": "Pizza", "item": "Cheese Pizza", "portionsMade": 80, "portionsLeft": 5, "wastePercent": 6 },
+        { "station": "Pizza", "item": "Pepperoni Pizza", "portionsMade": 80, "portionsLeft": 4, "wastePercent": 5 },
+        { "station": "Daily Grill", "item": "Shoestring French Fries", "portionsMade": 70, "portionsLeft": 3, "wastePercent": 4 },
+        { "station": "Chef Made Soups", "item": "Tomato Bisque", "portionsMade": 50, "portionsLeft": 21, "wastePercent": 42 },
+        { "station": "Bakery", "item": "Chocolate Chip Cookies", "portionsMade": 60, "portionsLeft": 7, "wastePercent": 12 }
+      ],
+      "totalWasteLbs": 22.7,
+      "notes": "Cauliflower and soup almost always come back. Rice overproduced on Mondays."
+    },
+    {
+      "date": "2026-03-28",
+      "shift": "dinner",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Grilled Salmon", "portionsMade": 70, "portionsLeft": 9, "wastePercent": 13 },
+        { "station": "Global Kitchen", "item": "Lentils and Spinach", "portionsMade": 55, "portionsLeft": 27, "wastePercent": 49 },
+        { "station": "Global Kitchen", "item": "Roasted Zucchini", "portionsMade": 50, "portionsLeft": 24, "wastePercent": 48 },
+        { "station": "Pizza", "item": "Cheese Pizza", "portionsMade": 60, "portionsLeft": 11, "wastePercent": 18 },
+        { "station": "Daily Grill", "item": "Veggie Burger", "portionsMade": 40, "portionsLeft": 16, "wastePercent": 40 },
+        { "station": "Bakery", "item": "Apple Poke Cake", "portionsMade": 45, "portionsLeft": 12, "wastePercent": 27 }
+      ],
+      "totalWasteLbs": 18.5,
+      "notes": "Lentils and zucchini heavily wasted — students prefer protein-forward items at dinner."
+    },
+    {
+      "date": "2026-03-29",
+      "shift": "breakfast",
+      "entries": [
+        { "station": "Breakfast Entree Line", "item": "Scrambled Eggs", "portionsMade": 80, "portionsLeft": 11, "wastePercent": 14 },
+        { "station": "Breakfast Entree Line", "item": "Churro Pancakes", "portionsMade": 55, "portionsLeft": 14, "wastePercent": 25 },
+        { "station": "Breakfast Entree Line", "item": "Maple Smoked Beef and Pork Sausage", "portionsMade": 55, "portionsLeft": 4, "wastePercent": 7 },
+        { "station": "Breakfast Entree Line", "item": "Ranch Breakfast Potatoes", "portionsMade": 50, "portionsLeft": 19, "wastePercent": 38 },
+        { "station": "Breakfast Entree Line", "item": "Meatless Vegetarian Sausage Patty", "portionsMade": 35, "portionsLeft": 16, "wastePercent": 46 },
+        { "station": "Bakery", "item": "Blueberry Muffin", "portionsMade": 40, "portionsLeft": 20, "wastePercent": 50 },
+        { "station": "Bakery", "item": "Cinnamon Roll", "portionsMade": 30, "portionsLeft": 7, "wastePercent": 23 },
+        { "station": "Fruit and Yogurt Bar", "item": "Cubed Cantaloupe", "portionsMade": 30, "portionsLeft": 5, "wastePercent": 17 }
+      ],
+      "totalWasteLbs": 13.6,
+      "notes": "Saturday breakfast — lower traffic. Blueberry muffins stale by mid-morning. Meatless sausage ignored as usual."
+    },
+    {
+      "date": "2026-03-29",
+      "shift": "lunch",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Butter Chicken", "portionsMade": 100, "portionsLeft": 5, "wastePercent": 5 },
+        { "station": "Global Kitchen", "item": "Garlic Roasted Cauliflower", "portionsMade": 55, "portionsLeft": 26, "wastePercent": 47 },
+        { "station": "Global Kitchen", "item": "Naan Bread", "portionsMade": 80, "portionsLeft": 9, "wastePercent": 11 },
+        { "station": "Global Kitchen", "item": "Brown Rice", "portionsMade": 85, "portionsLeft": 30, "wastePercent": 35 },
+        { "station": "Pizza", "item": "Cheese Pizza", "portionsMade": 80, "portionsLeft": 4, "wastePercent": 5 },
+        { "station": "Pizza", "item": "Pepperoni Pizza", "portionsMade": 75, "portionsLeft": 5, "wastePercent": 7 },
+        { "station": "Daily Grill", "item": "Shoestring French Fries", "portionsMade": 70, "portionsLeft": 3, "wastePercent": 4 },
+        { "station": "Chef Made Soups", "item": "Lentil Soup", "portionsMade": 50, "portionsLeft": 24, "wastePercent": 48 },
+        { "station": "Bakery", "item": "Chocolate Chip Cookies", "portionsMade": 55, "portionsLeft": 6, "wastePercent": 11 }
+      ],
+      "totalWasteLbs": 21.4,
+      "notes": "Butter Chicken nearly sold out again. Cauliflower and lentil soup high waste. Rice overproduced."
+    },
+    {
+      "date": "2026-03-29",
+      "shift": "dinner",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Jerk Chicken", "portionsMade": 80, "portionsLeft": 7, "wastePercent": 9 },
+        { "station": "Global Kitchen", "item": "Roasted Zucchini", "portionsMade": 50, "portionsLeft": 25, "wastePercent": 50 },
+        { "station": "Global Kitchen", "item": "Lentils and Spinach", "portionsMade": 55, "portionsLeft": 28, "wastePercent": 51 },
+        { "station": "Global Kitchen", "item": "Brown Rice", "portionsMade": 80, "portionsLeft": 29, "wastePercent": 36 },
+        { "station": "Pizza", "item": "Cheese Pizza", "portionsMade": 60, "portionsLeft": 10, "wastePercent": 17 },
+        { "station": "Daily Grill", "item": "Veggie Burger", "portionsMade": 40, "portionsLeft": 18, "wastePercent": 45 },
+        { "station": "Bakery", "item": "Gooey Bar", "portionsMade": 35, "portionsLeft": 15, "wastePercent": 43 }
+      ],
+      "totalWasteLbs": 19.8,
+      "notes": "Zucchini and lentils worst performers. Veggie burger wasted again — students chose other protein options."
+    },
+    {
+      "date": "2026-03-30",
+      "shift": "breakfast",
+      "entries": [
+        { "station": "Breakfast Entree Line", "item": "Scrambled Eggs", "portionsMade": 75, "portionsLeft": 10, "wastePercent": 13 },
+        { "station": "Breakfast Entree Line", "item": "French Toast", "portionsMade": 65, "portionsLeft": 14, "wastePercent": 22 },
+        { "station": "Breakfast Entree Line", "item": "Turkey Sausage", "portionsMade": 50, "portionsLeft": 5, "wastePercent": 10 },
+        { "station": "Bakery", "item": "Cinnamon Roll", "portionsMade": 35, "portionsLeft": 8, "wastePercent": 23 },
+        { "station": "Fruit and Yogurt Bar", "item": "Cubed Pineapple", "portionsMade": 30, "portionsLeft": 6, "wastePercent": 20 }
+      ],
+      "totalWasteLbs": 10.8,
+      "notes": "Wednesday breakfast lighter traffic — fewer students."
+    },
+    {
+      "date": "2026-03-30",
+      "shift": "lunch",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Pesto Chicken", "portionsMade": 90, "portionsLeft": 7, "wastePercent": 8 },
+        { "station": "Global Kitchen", "item": "Chickpeas and Spinach", "portionsMade": 55, "portionsLeft": 26, "wastePercent": 47 },
+        { "station": "Global Kitchen", "item": "Barley Mushroom Pilaf", "portionsMade": 60, "portionsLeft": 29, "wastePercent": 48 },
+        { "station": "Pizza", "item": "Sausage Pizza", "portionsMade": 70, "portionsLeft": 6, "wastePercent": 9 },
+        { "station": "Daily Grill", "item": "Vegetable Quesadilla", "portionsMade": 55, "portionsLeft": 22, "wastePercent": 40 },
+        { "station": "Chef Made Soups", "item": "Cauliflower Cheddar Soup", "portionsMade": 50, "portionsLeft": 19, "wastePercent": 38 },
+        { "station": "Bakery", "item": "Banana Pudding", "portionsMade": 40, "portionsLeft": 9, "wastePercent": 23 }
+      ],
+      "totalWasteLbs": 24.1,
+      "notes": "Barley pilaf rarely touched — students unfamiliar with the grain. Quesadillas underperform without meat option."
+    },
+    {
+      "date": "2026-03-30",
+      "shift": "dinner",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Honey Harissa Chicken", "portionsMade": 85, "portionsLeft": 6, "wastePercent": 7 },
+        { "station": "Global Kitchen", "item": "Sweet Potato and Feta", "portionsMade": 55, "portionsLeft": 25, "wastePercent": 45 },
+        { "station": "Global Kitchen", "item": "Brown Rice", "portionsMade": 80, "portionsLeft": 28, "wastePercent": 35 },
+        { "station": "Pizza", "item": "Pepperoni Pizza", "portionsMade": 70, "portionsLeft": 5, "wastePercent": 7 },
+        { "station": "Daily Grill", "item": "Egg Biscuit Sandwich", "portionsMade": 45, "portionsLeft": 13, "wastePercent": 29 },
+        { "station": "Bakery", "item": "Gooey Bar", "portionsMade": 40, "portionsLeft": 17, "wastePercent": 43 }
+      ],
+      "totalWasteLbs": 19.3,
+      "notes": "Rice overproduced again. Gooey bars not popular — students prefer cookies."
+    },
+    {
+      "date": "2026-04-01",
+      "shift": "breakfast",
+      "entries": [
+        { "station": "Breakfast Entree Line", "item": "Scrambled Eggs", "portionsMade": 80, "portionsLeft": 9, "wastePercent": 11 },
+        { "station": "Breakfast Entree Line", "item": "Chilaquiles Rojos", "portionsMade": 60, "portionsLeft": 31, "wastePercent": 52 },
+        { "station": "Breakfast Entree Line", "item": "Meatless Sausage Patty", "portionsMade": 40, "portionsLeft": 18, "wastePercent": 45 },
+        { "station": "Breakfast Entree Line", "item": "Ranch Breakfast Potatoes", "portionsMade": 55, "portionsLeft": 20, "wastePercent": 36 },
+        { "station": "Bakery", "item": "Apple Spice Muffin", "portionsMade": 40, "portionsLeft": 21, "wastePercent": 53 }
+      ],
+      "totalWasteLbs": 16.9,
+      "notes": "Chilaquiles Rojos unfamiliar to many students — high waste. Meatless sausage rarely chosen when beef sausage is present."
+    },
+    {
+      "date": "2026-04-01",
+      "shift": "lunch",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Butter Chicken", "portionsMade": 100, "portionsLeft": 4, "wastePercent": 4 },
+        { "station": "Global Kitchen", "item": "Garlic Roasted Cauliflower", "portionsMade": 60, "portionsLeft": 30, "wastePercent": 50 },
+        { "station": "Global Kitchen", "item": "Naan Bread", "portionsMade": 80, "portionsLeft": 10, "wastePercent": 13 },
+        { "station": "Pizza", "item": "Cheese Pizza", "portionsMade": 80, "portionsLeft": 3, "wastePercent": 4 },
+        { "station": "Daily Grill", "item": "Shoestring French Fries", "portionsMade": 70, "portionsLeft": 2, "wastePercent": 3 },
+        { "station": "Chef Made Soups", "item": "Lentil Soup", "portionsMade": 50, "portionsLeft": 23, "wastePercent": 46 },
+        { "station": "Bakery", "item": "Froot Loop Cereal Bar", "portionsMade": 50, "portionsLeft": 24, "wastePercent": 48 }
+      ],
+      "totalWasteLbs": 20.3,
+      "notes": "Butter Chicken nearly sold out — most popular Global Kitchen item this week. Cauliflower again high waste."
+    },
+    {
+      "date": "2026-04-01",
+      "shift": "dinner",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Jerk Chicken", "portionsMade": 80, "portionsLeft": 8, "wastePercent": 10 },
+        { "station": "Global Kitchen", "item": "Black Beans and Rice", "portionsMade": 70, "portionsLeft": 22, "wastePercent": 31 },
+        { "station": "Global Kitchen", "item": "Roasted Zucchini", "portionsMade": 50, "portionsLeft": 26, "wastePercent": 52 },
+        { "station": "Pizza", "item": "Cheese Pizza", "portionsMade": 60, "portionsLeft": 8, "wastePercent": 13 },
+        { "station": "Daily Grill", "item": "Veggie Burger", "portionsMade": 40, "portionsLeft": 19, "wastePercent": 48 },
+        { "station": "Bakery", "item": "Lemon Pound Cake", "portionsMade": 45, "portionsLeft": 14, "wastePercent": 31 }
+      ],
+      "totalWasteLbs": 21.1,
+      "notes": "Zucchini worst performer of the week. Veggie burgers consistently wasted — students picking beef options."
+    },
+    {
+      "date": "2026-04-04",
+      "shift": "breakfast",
+      "entries": [
+        { "station": "Breakfast Entree Line", "item": "Scrambled Eggs", "portionsMade": 80, "portionsLeft": 10, "wastePercent": 13 },
+        { "station": "Breakfast Entree Line", "item": "Chilaquiles Rojos", "portionsMade": 55, "portionsLeft": 28, "wastePercent": 51 },
+        { "station": "Breakfast Entree Line", "item": "Churro Pancakes", "portionsMade": 60, "portionsLeft": 15, "wastePercent": 25 },
+        { "station": "Breakfast Entree Line", "item": "Maple Smoked Beef and Pork Sausage", "portionsMade": 55, "portionsLeft": 5, "wastePercent": 9 },
+        { "station": "Breakfast Entree Line", "item": "Ranch Breakfast Potatoes", "portionsMade": 50, "portionsLeft": 19, "wastePercent": 38 },
+        { "station": "Breakfast Entree Line", "item": "Salsa Roja Cauliflower", "portionsMade": 40, "portionsLeft": 28, "wastePercent": 70 },
+        { "station": "Breakfast Entree Line", "item": "Meatless Vegetarian Sausage Patty", "portionsMade": 35, "portionsLeft": 16, "wastePercent": 46 },
+        { "station": "Bakery", "item": "Apple Spice Muffin", "portionsMade": 35, "portionsLeft": 17, "wastePercent": 49 },
+        { "station": "Bakery", "item": "Lemon Glazed Pound Cake", "portionsMade": 30, "portionsLeft": 14, "wastePercent": 47 },
+        { "station": "Bakery", "item": "Cinnamon Roll", "portionsMade": 30, "portionsLeft": 9, "wastePercent": 30 },
+        { "station": "Fruit and Yogurt Bar", "item": "Cubed Cantaloupe", "portionsMade": 30, "portionsLeft": 5, "wastePercent": 17 },
+        { "station": "Fruit and Yogurt Bar", "item": "Cubed Honeydew", "portionsMade": 25, "portionsLeft": 8, "wastePercent": 32 }
+      ],
+      "totalWasteLbs": 17.4,
+      "notes": "Salsa Roja Cauliflower at breakfast — worst performer today at 70% waste. Chilaquiles second week running with 50%+ waste."
+    },
+    {
+      "date": "2026-04-04",
+      "shift": "lunch",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Pesto Chicken", "portionsMade": 90, "portionsLeft": 6, "wastePercent": 7 },
+        { "station": "Global Kitchen", "item": "Chickpeas Spinach Roasted Tomatoes", "portionsMade": 60, "portionsLeft": 29, "wastePercent": 48 },
+        { "station": "Global Kitchen", "item": "Garlic Roasted Cauliflower", "portionsMade": 55, "portionsLeft": 27, "wastePercent": 49 },
+        { "station": "Global Kitchen", "item": "Barley Mushroom Pilaf", "portionsMade": 60, "portionsLeft": 31, "wastePercent": 52 },
+        { "station": "Pizza", "item": "Cheese Pizza", "portionsMade": 80, "portionsLeft": 4, "wastePercent": 5 },
+        { "station": "Pizza", "item": "Pepperoni Pizza", "portionsMade": 80, "portionsLeft": 3, "wastePercent": 4 },
+        { "station": "Pizza", "item": "Sausage Pizza", "portionsMade": 50, "portionsLeft": 5, "wastePercent": 10 },
+        { "station": "Daily Grill", "item": "Vegetable Quesadilla", "portionsMade": 55, "portionsLeft": 20, "wastePercent": 36 },
+        { "station": "Daily Grill", "item": "Shoestring French Fries", "portionsMade": 70, "portionsLeft": 2, "wastePercent": 3 },
+        { "station": "Chef Made Soups", "item": "Cauliflower Cheddar Soup", "portionsMade": 50, "portionsLeft": 22, "wastePercent": 44 },
+        { "station": "Bakery", "item": "Chocolate Chip Cookies", "portionsMade": 55, "portionsLeft": 5, "wastePercent": 9 },
+        { "station": "Bakery", "item": "Banana Pudding", "portionsMade": 40, "portionsLeft": 11, "wastePercent": 28 }
+      ],
+      "totalWasteLbs": 23.6,
+      "notes": "Barley Mushroom Pilaf worst lunch item at 52%. Cauliflower appears in 3 forms today — all high waste."
+    },
+    {
+      "date": "2026-04-04",
+      "shift": "dinner",
+      "entries": [
+        { "station": "Global Kitchen", "item": "Honey Harissa Roasted Chicken", "portionsMade": 85, "portionsLeft": 7, "wastePercent": 8 },
+        { "station": "Global Kitchen", "item": "Lentils Spinach Feta Sweet Potato", "portionsMade": 60, "portionsLeft": 28, "wastePercent": 47 },
+        { "station": "Global Kitchen", "item": "Brown Rice", "portionsMade": 80, "portionsLeft": 30, "wastePercent": 38 },
+        { "station": "Global Kitchen", "item": "Roasted Zucchini", "portionsMade": 50, "portionsLeft": 27, "wastePercent": 54 },
+        { "station": "Pizza", "item": "Cheese Pizza", "portionsMade": 60, "portionsLeft": 9, "wastePercent": 15 },
+        { "station": "Pizza", "item": "Pepperoni Pizza", "portionsMade": 60, "portionsLeft": 6, "wastePercent": 10 },
+        { "station": "Daily Grill", "item": "Tomato Spinach Cheddar Egg Biscuit", "portionsMade": 45, "portionsLeft": 14, "wastePercent": 31 },
+        { "station": "Daily Grill", "item": "Shoestring French Fries", "portionsMade": 70, "portionsLeft": 3, "wastePercent": 4 },
+        { "station": "Chef Made Soups", "item": "Cauliflower Cheddar Soup", "portionsMade": 50, "portionsLeft": 21, "wastePercent": 42 },
+        { "station": "Bakery", "item": "Apple Poke Cake", "portionsMade": 40, "portionsLeft": 13, "wastePercent": 33 },
+        { "station": "Bakery", "item": "Gooey Bar", "portionsMade": 35, "portionsLeft": 16, "wastePercent": 46 }
+      ],
+      "totalWasteLbs": 20.8,
+      "notes": "Roasted Zucchini worst dinner item at 54%. Brown Rice chronically overproduced — 35-38% waste every dinner shift."
+    }
+  ],
+  "weekSummary": {
+    "totalWasteLbs": 244.5,
+    "avgWastePerShift": 16.3,
+    "worstItems": [
+      { "item": "Salsa Roja Cauliflower (breakfast)", "avgWaste": "70%" },
+      { "item": "Roasted Zucchini", "avgWaste": "51%" },
+      { "item": "Chilaquiles Rojos", "avgWaste": "51%" },
+      { "item": "Barley Mushroom Pilaf", "avgWaste": "50%" },
+      { "item": "Meatless Vegetarian Sausage Patty", "avgWaste": "46%" }
+    ],
+    "bestItems": [
+      { "item": "Shoestring French Fries", "avgWaste": "3%" },
+      { "item": "Cheese Pizza", "avgWaste": "5%" },
+      { "item": "Pepperoni Pizza", "avgWaste": "5%" },
+      { "item": "Butter Chicken", "avgWaste": "4%" },
+      { "item": "Maple Smoked Beef and Pork Sausage", "avgWaste": "9%" }
+    ],
+    "aiRecommendation": "Cauliflower appears in 4 different preparations across breakfast, lunch, and dinner this week — all with 44-70% waste rates. Recommend reducing cauliflower-based items to 1 preparation per day maximum. Barley Mushroom Pilaf has wasted 50%+ both times served — consider replacing with a more familiar grain like quinoa or couscous. Brown Rice is overproduced at dinner every shift — reduce batch by 25%. Shoestring Fries, Cheese Pizza, and Pepperoni Pizza consistently perform well — ensure they are always available."
+  }
+}

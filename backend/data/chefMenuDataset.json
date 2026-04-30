@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "location": "IIT Commons — Illinois Institute of Technology",
+    "operator": "Chartwells",
+    "view": "chef_management",
+    "unit": "pounds (lbs)",
+    "note": "Batch sizes are estimates based on portion size x expected diners x 1.25 buffer. Actual batch sizes may vary by chef discretion.",
+    "avg_diners": {
+      "breakfast": 120,
+      "lunch": 180,
+      "dinner": 160
+    },
+    "last_updated": "2026-04-04"
+  },
+
+  "breakfast": {
+    "shift": "breakfast",
+    "service_window": "7:30 AM - 10:30 AM",
+    "expected_diners": 120,
+    "stations": [
+      {
+        "station": "Breakfast Entree Line",
+        "items": [
+          {
+            "name": "Scrambled Eggs",
+            "portion_oz": 4,
+            "batch_lbs_cooked": 25.0,
+            "expected_lbs_consumed": 20.0,
+            "expected_lbs_wasted": 5.0,
+            "waste_pct_estimate": 20
+          },
+          {
+            "name": "Chilaquiles Rojos",
+            "portion_oz": 5,
+            "batch_lbs_cooked": 20.0,
+            "expected_lbs_consumed": 9.0,
+            "expected_lbs_wasted": 11.0,
+            "waste_pct_estimate": 55
+          },
+          {
+            "name": "Churro Pancakes",
+            "portion_oz": 4,
+            "batch_lbs_cooked": 18.0,
+            "expected_lbs_consumed": 13.0,
+            "expected_lbs_wasted": 5.0,
+            "waste_pct_estimate": 28
+          },
+          {
+            "name": "Maple Smoked Beef and Pork Sausage",
+            "portion_oz": 4,
+            "batch_lbs_cooked": 22.0,
+            "expected_lbs_consumed": 20.0,
+            "expected_lbs_wasted": 2.0,
+            "waste_pct_estimate": 9
+          },
+          {
+            "name": "Ranch Breakfast Potatoes",
+            "portion_oz": 4,
+            "batch_lbs_cooked": 20.0,
+            "expected_lbs_consumed": 13.0,
+            "expected_lbs_wasted": 7.0,
+            "waste_pct_estimate": 35
+          },
+          {
+            "name": "Salsa Roja Cauliflower",
+            "portion_oz": 4,
+            "batch_lbs_cooked": 12.0,
+            "expected_lbs_consumed": 3.5,
+            "expected_lbs_wasted": 8.5,
+            "waste_pct_estimate": 71
+          },
+          {
+            "name": "Classic Oatmeal",
+            "portion_oz": 4,
+            "batch_lbs_cooked": 15.0,
+            "expected_lbs_consumed": 11.0,
+            "expected_lbs_wasted": 4.0,
+            "waste_pct_estimate": 27
+          },
+          {
+            "name": "Meatless Vegetarian Sausage Patty",
+            "portion_oz": 2,
+            "batch_lbs_cooked": 8.0,
+            "expected_lbs_consumed": 4.0,
+            "expected_lbs_wasted": 4.0,
+            "waste_pct_estimate": 50
+          }
+        ],
+        "station_total_cooked_lbs": 140.0,
+        "station_total_wasted_lbs_estimate": 46.5
+      },
+      {
+        "station": "Create (Omelet Bar)",
+        "note": "Made to order — near zero waste. No batch cooking.",
+        "items": [
+          { "name": "Eggs", "portion_oz": 3, "batch_lbs_cooked": 8.0, "expected_lbs_wasted": 0.5, "waste_pct_estimate": 6 },
+          { "name": "Shredded Sharp Cheddar Cheese", "portion_oz": 1, "batch_lbs_cooked": 3.0, "expected_lbs_wasted": 0.3, "waste_pct_estimate": 10 },
+          { "name": "Diced Smoked Ham", "portion_oz": 1, "batch_lbs_cooked": 3.0, "expected_lbs_wasted": 0.3, "waste_pct_estimate": 10 },
+          { "name": "Vegetables (mix)", "portion_oz": 2, "batch_lbs_cooked": 5.0, "expected_lbs_wasted": 0.5, "waste_pct_estimate": 10 }
+        ],
+        "station_total_cooked_lbs": 19.0,
+        "station_total_wasted_lbs_estimate": 1.6
+      },
+      {
+        "station": "Fruit and Yogurt Bar",
+        "note": "Self-serve. Low waste by nature.",
+        "items": [
+          { "name": "Low Fat Strawberry Yogurt", "portion_oz": 4, "batch_lbs_cooked": 10.0, "expected_lbs_wasted": 1.5, "waste_pct_estimate": 15 },
+          { "name": "Fat Free Vanilla Greek Yogurt", "portion_oz": 4, "batch_lbs_cooked": 8.0, "expected_lbs_wasted": 1.0, "waste_pct_estimate": 13 },
+          { "name": "Cubed Cantaloupe", "portion_oz": 4, "batch_lbs_cooked": 8.0, "expected_lbs_wasted": 1.2, "waste_pct_estimate": 15 },
+          { "name": "Cubed Honeydew", "portion_oz": 4, "batch_lbs_cooked": 6.0, "expected_lbs_wasted": 1.8, "waste_pct_estimate": 30 },
+          { "name": "Cubed Pineapple", "portion_oz": 2, "batch_lbs_cooked": 5.0, "expected_lbs_wasted": 0.8, "waste_pct_estimate": 16 },
+          { "name": "Oats n Honey Granola", "portion_oz": 1, "batch_lbs_cooked": 3.0, "expected_lbs_wasted": 0.3, "waste_pct_estimate": 10 }
+        ],
+        "station_total_cooked_lbs": 40.0,
+        "station_total_wasted_lbs_estimate": 6.6
+      },
+      {
+        "station": "Bakery",
+        "note": "Fixed batch sizes. Goes stale. Higher waste.",
+        "items": [
+          { "name": "Apple Spice Muffin", "portion_oz": 2.5, "batch_lbs_cooked": 6.0, "expected_lbs_wasted": 3.0, "waste_pct_estimate": 50 },
+          { "name": "Lemon-Glazed Pound Cake", "portion_oz": 3, "batch_lbs_cooked": 5.0, "expected_lbs_wasted": 2.3, "waste_pct_estimate": 46 },
+          { "name": "Cinnamon Roll", "portion_oz": 3, "batch_lbs_cooked": 6.0, "expected_lbs_wasted": 1.5, "waste_pct_estimate": 25 },
+          { "name": "Apple Cinnamon Muffin", "portion_oz": 3, "batch_lbs_cooked": 5.0, "expected_lbs_wasted": 2.5, "waste_pct_estimate": 50 }
+        ],
+        "station_total_cooked_lbs": 22.0,
+        "station_total_wasted_lbs_estimate": 9.3
+      }
+    ],
+    "shift_total_cooked_lbs": 221.0,
+    "shift_total_wasted_lbs_estimate": 64.0
+  },
+
+  "lunch": {
+    "shift": "lunch",
+    "service_window": "11:00 AM - 2:30 PM",
+    "expected_diners": 180,
+    "stations": [
+      {
+        "station": "Global Kitchen",
+        "items": [
+          { "name": "Pesto Chicken", "portion_oz": 3, "batch_lbs_cooked": 35.0, "expected_lbs_consumed": 32.0, "expected_lbs_wasted": 3.0, "waste_pct_estimate": 9 },
+          { "name": "Chickpeas Spinach Roasted Tomatoes", "portion_oz": 4, "batch_lbs_cooked": 20.0, "expected_lbs_consumed": 10.0, "expected_lbs_wasted": 10.0, "waste_pct_estimate": 50 },
+          { "name": "Garlic Roasted Cauliflower", "portion_oz": 4, "batch_lbs_cooked": 18.0, "expected_lbs_consumed": 9.0, "expected_lbs_wasted": 9.0, "waste_pct_estimate": 50 },
+          { "name": "Barley Mushroom Pilaf", "portion_oz": 4, "batch_lbs_cooked": 20.0, "expected_lbs_consumed": 9.5, "expected_lbs_wasted": 10.5, "waste_pct_estimate": 53 }
+        ],
+        "station_total_cooked_lbs": 93.0,
+        "station_total_wasted_lbs_estimate": 32.5
+      },
+      {
+        "station": "Pizza",
+        "items": [
+          { "name": "Cheese Pizza", "portion_oz": 3, "batch_lbs_cooked": 30.0, "expected_lbs_consumed": 28.5, "expected_lbs_wasted": 1.5, "waste_pct_estimate": 5 },
+          { "name": "Pepperoni Pizza", "portion_oz": 3, "batch_lbs_cooked": 28.0, "expected_lbs_consumed": 26.5, "expected_lbs_wasted": 1.5, "waste_pct_estimate": 5 },
+          { "name": "Sausage Pizza", "portion_oz": 3, "batch_lbs_cooked": 20.0, "expected_lbs_consumed": 18.0, "expected_lbs_wasted": 2.0, "waste_pct_estimate": 10 }
+        ],
+        "station_total_cooked_lbs": 78.0,
+        "station_total_wasted_lbs_estimate": 5.0
+      },
+      {
+        "station": "Daily Grill",
+        "items": [
+          { "name": "Vegetable Quesadilla", "portion_oz": 4, "batch_lbs_cooked": 22.0, "expected_lbs_consumed": 14.0, "expected_lbs_wasted": 8.0, "waste_pct_estimate": 36 },
+          { "name": "Shoestring French Fries", "portion_oz": 4, "batch_lbs_cooked": 25.0, "expected_lbs_consumed": 24.0, "expected_lbs_wasted": 1.0, "waste_pct_estimate": 4 }
+        ],
+        "station_total_cooked_lbs": 47.0,
+        "station_total_wasted_lbs_estimate": 9.0
+      },
+      {
+        "station": "Chef Made Soups",
+        "items": [
+          { "name": "Cauliflower Cheddar Soup", "portion_oz": 4, "batch_lbs_cooked": 20.0, "expected_lbs_consumed": 11.0, "expected_lbs_wasted": 9.0, "waste_pct_estimate": 45 }
+        ],
+        "station_total_cooked_lbs": 20.0,
+        "station_total_wasted_lbs_estimate": 9.0
+      },
+      {
+        "station": "Bakery",
+        "items": [
+          { "name": "Chocolate Chip Cookies", "portion_oz": 1.5, "batch_lbs_cooked": 6.0, "expected_lbs_consumed": 5.5, "expected_lbs_wasted": 0.5, "waste_pct_estimate": 8 },
+          { "name": "Banana Pudding", "portion_oz": 3, "batch_lbs_cooked": 8.0, "expected_lbs_consumed": 6.0, "expected_lbs_wasted": 2.0, "waste_pct_estimate": 25 },
+          { "name": "Froot Loop Cereal Bar", "portion_oz": 1.5, "batch_lbs_cooked": 4.0, "expected_lbs_consumed": 2.0, "expected_lbs_wasted": 2.0, "waste_pct_estimate": 50 }
+        ],
+        "station_total_cooked_lbs": 18.0,
+        "station_total_wasted_lbs_estimate": 4.5
+      }
+    ],
+    "shift_total_cooked_lbs": 256.0,
+    "shift_total_wasted_lbs_estimate": 60.0
+  },
+
+  "dinner": {
+    "shift": "dinner",
+    "service_window": "5:00 PM - 8:30 PM",
+    "expected_diners": 160,
+    "stations": [
+      {
+        "station": "Global Kitchen",
+        "items": [
+          { "name": "Honey Harissa Roasted Chicken", "portion_oz": 4, "batch_lbs_cooked": 40.0, "expected_lbs_consumed": 37.0, "expected_lbs_wasted": 3.0, "waste_pct_estimate": 8 },
+          { "name": "Lentils Spinach Feta Sweet Potato", "portion_oz": 4, "batch_lbs_cooked": 22.0, "expected_lbs_consumed": 11.5, "expected_lbs_wasted": 10.5, "waste_pct_estimate": 48 },
+          { "name": "Brown Rice", "portion_oz": 4, "batch_lbs_cooked": 30.0, "expected_lbs_consumed": 19.0, "expected_lbs_wasted": 11.0, "waste_pct_estimate": 37 },
+          { "name": "Roasted Zucchini", "portion_oz": 4, "batch_lbs_cooked": 18.0, "expected_lbs_consumed": 8.0, "expected_lbs_wasted": 10.0, "waste_pct_estimate": 56 }
+        ],
+        "station_total_cooked_lbs": 110.0,
+        "station_total_wasted_lbs_estimate": 34.5
+      },
+      {
+        "station": "Pizza",
+        "items": [
+          { "name": "Cheese Pizza", "portion_oz": 3, "batch_lbs_cooked": 24.0, "expected_lbs_consumed": 20.0, "expected_lbs_wasted": 4.0, "waste_pct_estimate": 17 },
+          { "name": "Pepperoni Pizza", "portion_oz": 3, "batch_lbs_cooked": 22.0, "expected_lbs_consumed": 19.5, "expected_lbs_wasted": 2.5, "waste_pct_estimate": 11 }
+        ],
+        "station_total_cooked_lbs": 46.0,
+        "station_total_wasted_lbs_estimate": 6.5
+      },
+      {
+        "station": "Daily Grill",
+        "items": [
+          { "name": "Tomato Spinach Cheddar Egg Biscuit", "portion_oz": 5, "batch_lbs_cooked": 22.0, "expected_lbs_consumed": 15.0, "expected_lbs_wasted": 7.0, "waste_pct_estimate": 32 },
+          { "name": "Shoestring French Fries", "portion_oz": 4, "batch_lbs_cooked": 25.0, "expected_lbs_consumed": 24.0, "expected_lbs_wasted": 1.0, "waste_pct_estimate": 4 }
+        ],
+        "station_total_cooked_lbs": 47.0,
+        "station_total_wasted_lbs_estimate": 8.0
+      },
+      {
+        "station": "Chef Made Soups",
+        "items": [
+          { "name": "Cauliflower Cheddar Soup", "portion_oz": 4, "batch_lbs_cooked": 18.0, "expected_lbs_consumed": 10.0, "expected_lbs_wasted": 8.0, "waste_pct_estimate": 44 }
+        ],
+        "station_total_cooked_lbs": 18.0,
+        "station_total_wasted_lbs_estimate": 8.0
+      },
+      {
+        "station": "Bakery",
+        "items": [
+          { "name": "Apple Poke Cake", "portion_oz": 3, "batch_lbs_cooked": 7.0, "expected_lbs_consumed": 4.5, "expected_lbs_wasted": 2.5, "waste_pct_estimate": 36 },
+          { "name": "Gooey Bar", "portion_oz": 2, "batch_lbs_cooked": 5.0, "expected_lbs_consumed": 2.5, "expected_lbs_wasted": 2.5, "waste_pct_estimate": 50 }
+        ],
+        "station_total_cooked_lbs": 12.0,
+        "station_total_wasted_lbs_estimate": 5.0
+      }
+    ],
+    "shift_total_cooked_lbs": 233.0,
+    "shift_total_wasted_lbs_estimate": 62.0
+  },
+
+  "daily_summary": {
+    "total_cooked_lbs": 710.0,
+    "total_wasted_lbs_estimate": 186.0,
+    "overall_waste_pct": 26.2,
+    "highest_waste_station": "Breakfast Entree Line (Salsa Roja Cauliflower at 71%)",
+    "lowest_waste_station": "Create Omelet Bar (made-to-order, ~6% waste)",
+    "top_recommendations": [
+      "Reduce Salsa Roja Cauliflower batch from 12 lbs to 4 lbs or remove from breakfast rotation",
+      "Reduce Brown Rice dinner batch from 30 lbs to 22 lbs — saves ~8 lbs per shift",
+      "Replace Barley Mushroom Pilaf (53% waste) with Jasmine Rice or Quinoa",
+      "Reduce Bakery muffin batch by 40% — stale by 9AM consistently",
+      "Increase French Fries batch slightly — consistently runs out, lowest waste item"
+    ]
+  }
+}
