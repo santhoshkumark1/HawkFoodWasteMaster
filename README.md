@@ -1,8 +1,8 @@
-# HawkWaste
+# HawkFoodWaste
 
 **AI-powered food waste intelligence for College Dining Services (IIT Commons) · IIT Hackathon 2026**
 
-HawkWaste helps dining staff estimate waste from bin photos, view trends on a manager dashboard, and receive short AI recommendations. The system combines **OpenAI vision** for photo analysis, **structured JSON datasets** for menus and historical mock logs, and a **React** front end that talks to a **Flask** API.
+HawkFoodWaste helps dining staff estimate waste from bin photos, view trends on a manager dashboard, and receive short AI recommendations. The system combines **OpenAI vision** for photo analysis, **structured JSON datasets** for menus and historical mock logs, and a **React** front end that talks to a **Flask** API.
 
 ---
 
